@@ -1,0 +1,4 @@
+raspberrypi.local {
+    tls internal
+    reverse_proxy actual_server:5006
+}
