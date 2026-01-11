@@ -1,7 +1,7 @@
 # actual-budget-fsp
 Deployment Setup for self-hosting [Actual Budget](https://github.com/actualbudget/actual) on a Raspberry Pi
 
-This repository contains a minimal Docker Compose setup to run the Actual Budget server behind a [Caddy](https://github.com/caddyserver/caddy) reverse proxy on a small self-hosted machine (e.g. Raspberry Pi). The configuration is intentionally simple so a hobbyist engineer can inspect and extend it.
+This repository contains a minimal Docker Compose setup to run the Actual Budget server behind a [Caddy](https://github.com/caddyserver/caddy) reverse proxy on a small self-hosted machine (e.g. Raspberry Pi). The configuration is intentionally simple so a hobbyist engineer can inspect and extend it. If you don't have docker yet, here's the install [instructions](https://docs.docker.com/engine/install/debian/).
 
 **Files**
 - **docker-compose.yml**: Starts two services — `caddy` (the reverse proxy) and `actual_server` (the Actual Budget backend). See [docker-compose.yml](docker-compose.yml).
